@@ -1,7 +1,8 @@
 package com.example.api1.resources;
 
-import io.jooby.annotations.GET;
-import io.jooby.annotations.Path;
+
+import io.jooby.annotation.GET;
+import io.jooby.annotation.Path;
 
 @Path("example-1")
 public class Resource2 {

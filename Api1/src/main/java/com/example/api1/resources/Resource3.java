@@ -4,11 +4,11 @@ package com.example.api1.resources;
 import io.jooby.annotation.GET;
 import io.jooby.annotation.Path;
 
-@Path("/mvc")
-public class Resource1 {
+@Path("example-3")
+public class Resource3 {
 
   @GET
-  public String sayHi() {
+  public String example3() {
     return "Hello Mvc!";
   }
 }
