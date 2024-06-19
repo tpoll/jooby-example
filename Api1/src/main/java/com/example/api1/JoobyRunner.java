@@ -1,4 +1,4 @@
-package com.example;
+package com.example.api1;
 
 import io.jooby.Jooby;
 

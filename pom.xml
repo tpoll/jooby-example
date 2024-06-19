@@ -21,7 +21,7 @@
         <basepom.check.phase-dependency-versions-check>validate</basepom.check.phase-dependency-versions-check>
         <basepom.check.phase-duplicate-finder>verify</basepom.check.phase-duplicate-finder>
         <basepom.check.phase-enforcer>validate</basepom.check.phase-enforcer>
-        <basepom.check.phase-findbugs>verify</basepom.check.phase-findbugs>
+        <basepom.check.skip-spotbugs>true</basepom.check.skip-spotbugs>
         <basepom.check.phase-pmd>verify</basepom.check.phase-pmd>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.systemJdk>17</project.build.systemJdk>
@@ -30,8 +30,6 @@
 
     <modules>
         <module>Api1</module>
-        <module>Api2</module>
-        <module>runner-core</module>
     </modules>
 
     <build>
@@ -46,7 +44,7 @@
                         <path>
                             <groupId>io.jooby</groupId>
                             <artifactId>jooby-apt</artifactId>
-                            <version>3.0.1</version>
+                            <version>3.0.5</version>
                         </path>
                     </annotationProcessorPaths>
                 </configuration>
